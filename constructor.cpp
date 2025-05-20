@@ -12,11 +12,16 @@ class Barang
 private:
     string nama_barang;
     string kode_barang;
+    
 public:
     Barang(string nama, string kode)
     {
         nama_barang = nama;
         kode_barang = kode;
+
+        this->nama_barang = nama_barang;
+        this->kode_barang = kode_barang;    
+        return;
     }
 
     void cetak()
